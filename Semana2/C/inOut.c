@@ -22,7 +22,7 @@ int main (){
 
     putchar(c);
 
-    /*
+    
     en este caso se encarga de escribir c como caracter de texto generalmente en pantalla,
     las llamdas en putchar y printf suelen ser alternadas la salida se realizara segun el orden de invocacion
     
@@ -37,11 +37,9 @@ int main (){
 
     int c;
 
-    c = getchar();
-    while (c != EOF){ //EOF significa final del archivo (End of File)
+    
+    while ((c = getchar()) != EOF){ //EOF significa final del archivo (End of File)
         putchar(c);
-        c = getchar();
-        printf(c);
     }
 
     /*
