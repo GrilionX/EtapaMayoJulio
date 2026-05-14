@@ -20,4 +20,5 @@ int main(){
 /codigo simple en c++ para imprimir un hola munod simple, cout sirve para imrpimir, 
 endl para terminar la linea, experimentarmos con ello mas adelante, a diferencia de c, aqui se usan los '<<'
 para encerrar los strings
+endl actua como \n en C
 */
